@@ -1,0 +1,29 @@
+{
+  "name": "entregable",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/stack": "^7.0.0",
+    "expo": "^51.0.38",
+    "expo-camera": "^15.0.16",
+    "expo-screen-orientation": "^7.0.5",
+    "expo-sensors": "^13.0.9",
+    "expo-status-bar": "~1.12.1",
+    "install": "^0.13.0",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
